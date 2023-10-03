@@ -1188,11 +1188,26 @@ text-align: center;
     
     
    
-
+    .lo{
+    
+        width: 50%;
+        height: 100%;
+     }
     
     
 }
 
+@media (max-width:1225px) {
+
+    .rectangle{
+        margin-top: 11%;
+        margin-left: 0%;
+    }
+
+    .nav.ul{
+        font-size: 20px;
+    }
+}
 @media (max-width:952px) {
     label.logo{
         font-size: 30px;
@@ -1206,9 +1221,34 @@ text-align: center;
        height: 100%;
     }
     nav ul li a{
-        font-size: 16px;
+     
+        margin-top: -10%;
     }
 
+    .nav ul li{
+        margin-top:-100%;
+        font-size: 1px;
+    }
+    .image img{
+        width: 30%;
+        height:100%;
+        display: inline;
+        margin-top: 0%;
+       
+    
+       
+    
+    }
+    
+
+    .lo{
+        display: none;
+    }
+    .rectangle{
+        
+        margin-top: 10%;
+
+    }
     .slide-logo{
 
         /* mix-blend-mode: multiply;*/
@@ -1220,22 +1260,23 @@ text-align: center;
      
      }
 
-     .card3{
-
-     }
+     
      .card2{
          width: 50%;
      }
 }
 
-@media (max-width:858px){
+@media (max-width:854px){
    
     
     
     .checkbtn{
         display: block;
     }
-
+.image img{
+    width: 40%;
+    height: 10%;
+}
     
     ul{
         position: absolute;
